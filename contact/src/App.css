@@ -1,0 +1,73 @@
+body{
+background-image:url(https://finmavis.github.io/swapi-task/static/media/bg-card-1.0c96fd00.png);
+width:100%;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  background-color: rgb(245, 242, 238);
+  width:50%;
+  padding: 20px 30px;
+  margin-left: 300px;
+  margin-top: 20px;
+
+}
+
+input[type=text],[type=email],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #554f4f;
+  box-sizing: border-box;
+  background-color: transparent;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border:none;
+  border-radius: 4px;
+  resize: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.btn{
+  background-color: #223a24;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  width:100%;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color:linear-gradient(red, yellow);
+  
+}
+
+.submit{
+  color:rgb(121, 216, 121);
+  font-size: 25px;
+  text-align: center;
+}
+
+.error{
+  color:rgb(121, 216, 121);
+  font-size: 25px;
+  text-align: center;
+}
