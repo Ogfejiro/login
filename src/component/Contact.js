@@ -13,7 +13,7 @@ import axios from 'axios'
   };
   const [submitted, setSumitted] = useState(false)  
   const [Error, setError] = useState(null)  
-  const [Loading, setLoading] = useState(false)  
+  // const [Loading, setLoading] = useState(false)  
 
   const handleSubmit =(event) => {
     event.preventDefault();
